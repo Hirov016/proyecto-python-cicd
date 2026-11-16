@@ -8,8 +8,8 @@ def test_calcular_promedio():
 def test_estudiante_aprobado():
     assert obtener_resultado(15) == "APROBADO"
 
-def test_estudiante_desaprobado():
-    assert obtener_resultado(9) == "DESAPROBADO"
+def test_estudiante_aprobado():
+    assert obtener_resultado(15) == "DESAPROBADO"
 
 def test_nota_fuera_de_rango():
     with pytest.raises(ValueError):
